@@ -1,7 +1,7 @@
 {
   "extends": ["config:base"],
   "semanticCommits": true,
-  "stabilityDays": 3,
+  "stabilityDays": 7,
   "prCreation": "not-pending",
   "labels": ["type: dependencies"]
 }
