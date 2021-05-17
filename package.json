@@ -44,7 +44,7 @@
     "eslint-plugin-react": "7.23.2",
     "eslint-plugin-react-hooks": "4.2.0",
     "husky": "6.0.0",
-    "lint-staged": "10.5.4",
+    "lint-staged": "11.0.0",
     "postcss": "8.2.9",
     "prettier": "2.2.1",
     "styled-components": "5.2.3",
