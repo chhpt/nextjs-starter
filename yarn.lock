@@ -1292,10 +1292,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-alloy@3.10.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-alloy/-/eslint-config-alloy-3.10.0.tgz#b2d85ba3bd7dddcc6d7fc79088c192a646f4f246"
-  integrity sha512-V34DUmW5n9NU2KbqKw6ow6qHt4RKksuvLKaAAC64ZMPnzwLH8ia7s0N4pEjeVzdtVL77jehCJkupLo8eUdKGYA==
+eslint-config-alloy@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-alloy/-/eslint-config-alloy-4.1.0.tgz#3d5df5d139fb27797943c36e91945be5b300886e"
+  integrity sha512-zpW7rxURMsGyNBaN1z9gISm0NWglNR5BzwrOI3TKocT+30jyi8qBjMJJZoYlKbYHPkdy/DM8O2oGvqgJjKTxNA==
 
 eslint-plugin-react-hooks@4.2.0:
   version "4.2.0"
