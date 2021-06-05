@@ -14,7 +14,7 @@
 
 <br>
 
-A TypeScript starter for Next.js that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
+A Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
 
 - ⚙️ **Tailwind CSS** - A utility-first CSS framework
 - 🍓 **Styled Components** - Styling React component
