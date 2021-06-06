@@ -11,5 +11,6 @@ module.exports = {
     complexity: 'off',
     'prefer-promise-reject-errors': 'off',
     '@typescript-eslint/no-parameter-properties': 'off',
+    '@typescript-eslint/explicit-member-accessibility': 'off'
   },
 }
