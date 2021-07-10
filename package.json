@@ -15,8 +15,8 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc",
-    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
-    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
+    "lint": "next lint",
+    "format": "prettier --ignore-path .gitignore \"pages/**/*.+(ts|js|tsx)\" --write",
     "postinstall": "husky install"
   },
   "lint-staged": {
@@ -41,8 +41,7 @@
     "autoprefixer": "10.2.6",
     "eslint": "7.30.0",
     "eslint-config-alloy": "4.1.0",
-    "eslint-plugin-react": "7.24.0",
-    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-config-next": "11.0.1",
     "husky": "7.0.1",
     "lint-staged": "11.0.0",
     "postcss": "8.3.5",
