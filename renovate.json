@@ -1,7 +1,8 @@
 {
   "extends": ["config:base"],
   "semanticCommits": true,
-  "stabilityDays": 7,
   "prCreation": "not-pending",
-  "labels": ["type: dependencies"]
+  "labels": ["type: dependencies"],
+  "schedule": ["every weekend"],
+  "automerge": true
 }
