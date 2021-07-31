@@ -1416,10 +1416,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-4.0.0.tgz?cache=0&sync_timestamp=1618677243201&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fescape-string-regexp%2Fdownload%2Fescape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha1-FLqDpdNz49MR5a/KKc9b+tllvzQ=
 
-eslint-config-alloy@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.nlark.com/eslint-config-alloy/download/eslint-config-alloy-4.1.0.tgz#3d5df5d139fb27797943c36e91945be5b300886e"
-  integrity sha1-PV310Tn7J3l5Q8NukZRb5bMAiG4=
+eslint-config-alloy@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-alloy/-/eslint-config-alloy-4.2.0.tgz#6913b0bc8e96c6179b13a26ab6bcb9542d44d3bf"
+  integrity sha512-h93hTjwa++RZLAHFZKSv7mv6WGowIcfmoURW5caZ5xqOIzODYIak5WCR9X6dcX/syS+w0i5Yh4/htd9wPU7jAA==
 
 eslint-config-next@11.0.1:
   version "11.0.1"
