@@ -356,10 +356,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@17.0.14":
-  version "17.0.14"
-  resolved "https://registry.nlark.com/@types/react/download/@types/react-17.0.14.tgz?cache=0&sync_timestamp=1625682926121&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Freact%2Fdownload%2F%40types%2Freact-17.0.14.tgz#f0629761ca02945c4e8fea99b8177f4c5c61fb0f"
-  integrity sha1-8GKXYcoClFxOj+qZuBd/TFxh+w8=
+"@types/react@17.0.15":
+  version "17.0.15"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.15.tgz#c7533dc38025677e312606502df7656a6ea626d0"
+  integrity sha512-uTKHDK9STXFHLaKv6IMnwp52fm0hwU+N89w/p9grdUqcFA6WuqDyPhaWopbNyE1k/VhgzmHl8pu1L4wITtmlLw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
