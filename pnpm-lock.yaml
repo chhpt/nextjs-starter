@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@emotion/react': 11.6.0
   '@emotion/styled': 11.6.0
-  '@types/node': 16.11.7
+  '@types/node': 16.11.9
   '@types/react': 17.0.34
   '@types/react-dom': 17.0.11
   '@typescript-eslint/eslint-plugin': 5.3.1
@@ -30,7 +30,7 @@ dependencies:
 devDependencies:
   '@emotion/react': 11.6.0_27d7f75f5fffc1228c129be468caca5c
   '@emotion/styled': 11.6.0_a7ffd92a36a2154ac9fddefcf45415e7
-  '@types/node': 16.11.7
+  '@types/node': 16.11.9
   '@types/react': 17.0.34
   '@types/react-dom': 17.0.11
   '@typescript-eslint/eslint-plugin': 5.3.1_4daca2483796bdceece3758b04dba2a1
@@ -490,8 +490,8 @@ packages:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
     dev: true
 
-  /@types/node/16.11.7:
-    resolution: {integrity: sha512-QB5D2sqfSjCmTuWcBWyJ+/44bcjO7VbjSbOE0ucoVbAsSNQc4Lt6QkgkVXkTDwkL4z/beecZNDvVX15D4P8Jbw==}
+  /@types/node/16.11.9:
+    resolution: {integrity: sha512-MKmdASMf3LtPzwLyRrFjtFFZ48cMf8jmX5VRYrDQiJa8Ybu5VAmkqBWqKU8fdCwD8ysw4mQ9nrEHvzg6gunR7A==}
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -2447,7 +2447,7 @@ packages:
     resolution: {integrity: sha512-mk0umAQ5lT+CaOJ+Qp01N6kz48sJG2kr2n1rX0koqKf6FIygQV0qLOdN9SCYID4IVeSigDOcPeGLozdMLYfb5g==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
-      '@types/node': 16.11.7
+      '@types/node': 16.11.9
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: false
