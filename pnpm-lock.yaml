@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@emotion/react': 11.6.0
+  '@emotion/react': 11.7.0
   '@emotion/styled': 11.6.0
   '@types/node': 16.11.10
   '@types/react': 17.0.37
@@ -28,8 +28,8 @@ dependencies:
   react-dom: 17.0.2_react@17.0.2
 
 devDependencies:
-  '@emotion/react': 11.6.0_cfedea9b3ed0faf0dded75c187406c5e
-  '@emotion/styled': 11.6.0_a522e2b76991e59b041b46dae6112478
+  '@emotion/react': 11.7.0_cfedea9b3ed0faf0dded75c187406c5e
+  '@emotion/styled': 11.6.0_49e498e16442da1a9ae75db6f4430d97
   '@types/node': 16.11.10
   '@types/react': 17.0.37
   '@types/react-dom': 17.0.11
@@ -182,8 +182,8 @@ packages:
     resolution: {integrity: sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==}
     dev: true
 
-  /@emotion/react/11.6.0_cfedea9b3ed0faf0dded75c187406c5e:
-    resolution: {integrity: sha512-23MnRZFBN9+D1lHXC5pD6z4X9yhPxxtHr6f+iTGz6Fv6Rda0GdefPrsHL7otsEf+//7uqCdT5QtHeRxHCERzuw==}
+  /@emotion/react/11.7.0_cfedea9b3ed0faf0dded75c187406c5e:
+    resolution: {integrity: sha512-WL93hf9+/2s3cA1JVJlz8+Uy6p6QWukqQFOm2OZO5ki51hfucHMOmbSjiyC3t2Y4RI8XUmBoepoc/24ny/VBbA==}
     peerDependencies:
       '@babel/core': ^7.0.0
       '@types/react': '*'
@@ -219,7 +219,7 @@ packages:
     resolution: {integrity: sha512-u0AX4aSo25sMAygCuQTzS+HsImZFuS8llY8O7b9MDRzbJM0kVJlAz6KNDqcG7pOuQZJmj/8X/rAW+66kMnMW+g==}
     dev: true
 
-  /@emotion/styled/11.6.0_a522e2b76991e59b041b46dae6112478:
+  /@emotion/styled/11.6.0_49e498e16442da1a9ae75db6f4430d97:
     resolution: {integrity: sha512-mxVtVyIOTmCAkFbwIp+nCjTXJNgcz4VWkOYQro87jE2QBTydnkiYusMrRGFtzuruiGK4dDaNORk4gH049iiQuw==}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -235,7 +235,7 @@ packages:
       '@babel/runtime': 7.16.0
       '@emotion/babel-plugin': 11.3.0
       '@emotion/is-prop-valid': 1.1.1
-      '@emotion/react': 11.6.0_cfedea9b3ed0faf0dded75c187406c5e
+      '@emotion/react': 11.7.0_cfedea9b3ed0faf0dded75c187406c5e
       '@emotion/serialize': 1.0.2
       '@emotion/utils': 1.0.0
       '@types/react': 17.0.37
