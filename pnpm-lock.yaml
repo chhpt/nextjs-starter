@@ -16,7 +16,7 @@ specifiers:
   lint-staged: 12.1.2
   next: 12.0.6
   postcss: 8.4.4
-  prettier: 2.5.0
+  prettier: 2.5.1
   react: 17.0.2
   react-dom: 17.0.2
   tailwindcss: 2.2.19
@@ -42,7 +42,7 @@ devDependencies:
   husky: 7.0.4
   lint-staged: 12.1.2
   postcss: 8.4.4
-  prettier: 2.5.0
+  prettier: 2.5.1
   tailwindcss: 2.2.19_6b4e3d148bdcb715d5f821ed0a9c268b
   typescript: 4.5.2
 
@@ -3116,8 +3116,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.5.0:
-    resolution: {integrity: sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==}
+  /prettier/2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
