@@ -8,7 +8,7 @@ specifiers:
   '@types/react-dom': 17.0.11
   '@typescript-eslint/eslint-plugin': 5.8.1
   '@typescript-eslint/parser': 5.8.1
-  autoprefixer: 10.4.1
+  autoprefixer: 10.4.2
   eslint: 8.6.0
   eslint-config-alloy: 4.4.0
   eslint-config-next: 12.0.7
@@ -35,7 +35,7 @@ devDependencies:
   '@types/react-dom': 17.0.11
   '@typescript-eslint/eslint-plugin': 5.8.1_13039593e64cd539d0b4c5c2da390958
   '@typescript-eslint/parser': 5.8.1_eslint@8.6.0+typescript@4.5.4
-  autoprefixer: 10.4.1_postcss@8.4.5
+  autoprefixer: 10.4.2_postcss@8.4.5
   eslint: 8.6.0
   eslint-config-alloy: 4.4.0
   eslint-config-next: 12.0.7_7d5ff8d8e1054d856b46ec86cec9a25f
@@ -43,7 +43,7 @@ devDependencies:
   lint-staged: 12.1.4
   postcss: 8.4.5
   prettier: 2.5.1
-  tailwindcss: 3.0.8_cefe482e8d38053bbf3d5815e0c551b3
+  tailwindcss: 3.0.8_ef48b3b8837f8a23677bffe8f9cd866d
   typescript: 4.5.4
 
 packages:
@@ -815,15 +815,15 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /autoprefixer/10.4.1_postcss@8.4.5:
-    resolution: {integrity: sha512-B3ZEG7wtzXDRCEFsan7HmR2AeNsxdJB0+sEC0Hc5/c2NbhJqPwuZm+tn233GBVw82L+6CtD6IPSfVruwKjfV3A==}
+  /autoprefixer/10.4.2_postcss@8.4.5:
+    resolution: {integrity: sha512-9fOPpHKuDW1w/0EKfRmVnxTDt8166MAnLI3mgZ1JCnhNtYWxcJ6Ud5CO/AVOZi/AvFa8DY9RTy3h3+tFBlrrdQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.19.1
-      caniuse-lite: 1.0.30001294
+      caniuse-lite: 1.0.30001297
       fraction.js: 4.1.2
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -954,7 +954,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001294
+      caniuse-lite: 1.0.30001297
       colorette: 1.4.0
       electron-to-chromium: 1.4.31
       escalade: 3.1.1
@@ -966,7 +966,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001294
+      caniuse-lite: 1.0.30001297
       electron-to-chromium: 1.4.31
       escalade: 3.1.1
       node-releases: 2.0.1
@@ -1013,8 +1013,8 @@ packages:
     resolution: {integrity: sha512-+Nkvv0fHyhISkiMIjnyjmf5YJcQ1IQHZN6U9TLUMroWR38FNwpsC51Gb68yueafX1V6ifOisInSgP9WJFS13ew==}
     dev: false
 
-  /caniuse-lite/1.0.30001294:
-    resolution: {integrity: sha512-LiMlrs1nSKZ8qkNhpUf5KD0Al1KCBE3zaT7OLOwEkagXMEDij98SiOovn9wxVGQpklk9vVC/pUSqgYmkmKOS8g==}
+  /caniuse-lite/1.0.30001297:
+    resolution: {integrity: sha512-6bbIbowYG8vFs/Lk4hU9jFt7NknGDleVAciK916tp6ft1j+D//ZwwL6LbF1wXMQ32DMSjeuUV8suhh6dlmFjcA==}
 
   /chalk/2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -1258,7 +1258,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      caniuse-lite: 1.0.30001294
+      caniuse-lite: 1.0.30001297
       postcss: 8.2.15
     dev: false
 
@@ -3527,7 +3527,7 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /tailwindcss/3.0.8_cefe482e8d38053bbf3d5815e0c551b3:
+  /tailwindcss/3.0.8_ef48b3b8837f8a23677bffe8f9cd866d:
     resolution: {integrity: sha512-Yww1eRYO1AxITJmW/KduZPxNvYdHuedeKwPju9Oakp7MdiixRi5xkpLhirsc81QCxHL0eoce6qKmxXwYGt4Cjw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -3536,7 +3536,7 @@ packages:
       postcss: ^8.0.9
     dependencies:
       arg: 5.0.1
-      autoprefixer: 10.4.1_postcss@8.4.5
+      autoprefixer: 10.4.2_postcss@8.4.5
       chalk: 4.1.2
       chokidar: 3.5.2
       color-name: 1.1.4
