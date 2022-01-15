@@ -19,7 +19,7 @@ specifiers:
   prettier: 2.5.1
   react: 17.0.2
   react-dom: 17.0.2
-  tailwindcss: 3.0.12
+  tailwindcss: 3.0.15
   typescript: 4.5.4
 
 dependencies:
@@ -43,7 +43,7 @@ devDependencies:
   lint-staged: 12.1.7
   postcss: 8.4.5
   prettier: 2.5.1
-  tailwindcss: 3.0.12_ef48b3b8837f8a23677bffe8f9cd866d
+  tailwindcss: 3.0.15_ef48b3b8837f8a23677bffe8f9cd866d
   typescript: 4.5.4
 
 packages:
@@ -2482,6 +2482,15 @@ packages:
       path-parse: 1.0.7
     dev: true
 
+  /resolve/1.21.0:
+    resolution: {integrity: sha512-3wCbTpk5WJlyE4mSOtDLhqQmGFi0/TD9VPwmiolnk8U0wRgMEktqCXd3vy5buTO3tljvalNvKrjHEfrd2WpEKA==}
+    hasBin: true
+    dependencies:
+      is-core-module: 2.8.0
+      path-parse: 1.0.7
+      supports-preserve-symlinks-flag: 1.0.0
+    dev: true
+
   /resolve/2.0.0-next.3:
     resolution: {integrity: sha512-W8LucSynKUIDu9ylraa7ueVZ7hc0uAgJBxVsQSKOXOyle8a93qXhcz+XAXZ8bIq2d6i4Ehddn6Evt+0/UwKk6Q==}
     dependencies:
@@ -2786,8 +2795,13 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /tailwindcss/3.0.12_ef48b3b8837f8a23677bffe8f9cd866d:
-    resolution: {integrity: sha512-VqhF86z2c34sJyS5ZS8Q2nYuN0KzqZw1GGsuQQO9kJ3mY1oG7Fsag0vICkxUVXk6P+1sUkTkjMjKWCjEF0hNHw==}
+  /supports-preserve-symlinks-flag/1.0.0:
+    resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
+    engines: {node: '>= 0.4'}
+    dev: true
+
+  /tailwindcss/3.0.15_ef48b3b8837f8a23677bffe8f9cd866d:
+    resolution: {integrity: sha512-bT2iy7FtjwgsXik4ZoJnHXR+SRCiGR1W95fVqpLZebr64m4ahwUwRbIAc5w5+2fzr1YF4Ct2eI7dojMRRl8sVQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -2815,7 +2829,7 @@ packages:
       postcss-selector-parser: 6.0.8
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
-      resolve: 1.20.0
+      resolve: 1.21.0
     transitivePeerDependencies:
       - ts-node
     dev: true
