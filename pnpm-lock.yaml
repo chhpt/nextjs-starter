@@ -19,7 +19,7 @@ specifiers:
   prettier: 2.5.1
   react: 17.0.2
   react-dom: 17.0.2
-  tailwindcss: 3.0.18
+  tailwindcss: 3.0.22
   typescript: 4.5.5
 
 dependencies:
@@ -43,7 +43,7 @@ devDependencies:
   lint-staged: 12.3.3
   postcss: 8.4.6
   prettier: 2.5.1
-  tailwindcss: 3.0.18_833e1018ad0d7954aa80c53675939269
+  tailwindcss: 3.0.22_autoprefixer@10.4.2
   typescript: 4.5.5
 
 packages:
@@ -748,7 +748,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.16.3
       cosmiconfig: 6.0.0
-      resolve: 1.21.0
+      resolve: 1.22.0
     dev: true
 
   /balanced-match/1.0.2:
@@ -1701,6 +1701,12 @@ packages:
       has: 1.0.3
     dev: true
 
+  /is-core-module/2.8.1:
+    resolution: {integrity: sha512-SdNCUs284hr40hFTFP6l0IfZ/RSrMXF3qgoRHd3/79unUTvrFO/JoXwkGm+5J/Oe3E/b5GsnG330uUNgRpu1PA==}
+    dependencies:
+      has: 1.0.3
+    dev: true
+
   /is-date-object/1.0.5:
     resolution: {integrity: sha512-9YQaSxsAiSwcvS33MBk3wTCVnWK+HhF8VZR2jRxehM16QcVOdHqPn4VPHmRK4lSr38n9JriurInLcP90xsYNfQ==}
     engines: {node: '>= 0.4'}
@@ -2376,6 +2382,15 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
+  /resolve/1.22.0:
+    resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==}
+    hasBin: true
+    dependencies:
+      is-core-module: 2.8.1
+      path-parse: 1.0.7
+      supports-preserve-symlinks-flag: 1.0.0
+    dev: true
+
   /resolve/2.0.0-next.3:
     resolution: {integrity: sha512-W8LucSynKUIDu9ylraa7ueVZ7hc0uAgJBxVsQSKOXOyle8a93qXhcz+XAXZ8bIq2d6i4Ehddn6Evt+0/UwKk6Q==}
     dependencies:
@@ -2630,13 +2645,12 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss/3.0.18_833e1018ad0d7954aa80c53675939269:
-    resolution: {integrity: sha512-ihPTpEyA5ANgZbwKlgrbfnzOp9R5vDHFWmqxB1PT8NwOGCOFVVMl+Ps1cQQ369acaqqf1BEF77roCwK0lvNmTw==}
+  /tailwindcss/3.0.22_autoprefixer@10.4.2:
+    resolution: {integrity: sha512-F8lt74RlNZirnkaSk310+vGQta7c0/hgx7/bqxruM4wS9lp8oqV93lzavajC3VT0Lp4UUtUVIt8ifKcmGzkr0A==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
       autoprefixer: ^10.0.2
-      postcss: ^8.0.9
     dependencies:
       arg: 5.0.1
       autoprefixer: 10.4.2_postcss@8.4.6
@@ -2659,7 +2673,7 @@ packages:
       postcss-selector-parser: 6.0.9
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
-      resolve: 1.21.0
+      resolve: 1.22.0
     transitivePeerDependencies:
       - ts-node
     dev: true
