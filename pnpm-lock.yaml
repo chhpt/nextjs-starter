@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@emotion/react': 11.7.1
   '@emotion/styled': 11.6.0
-  '@types/node': 16.11.24
+  '@types/node': 16.11.25
   '@types/react': 17.0.39
   '@types/react-dom': 17.0.11
   '@typescript-eslint/eslint-plugin': 5.11.0
@@ -30,7 +30,7 @@ dependencies:
 devDependencies:
   '@emotion/react': 11.7.1_a0c521d4794c7ad97f5f4c1c4a7d5818
   '@emotion/styled': 11.6.0_6051c8b70bfa52211d6f419a3c4413f0
-  '@types/node': 16.11.24
+  '@types/node': 16.11.25
   '@types/react': 17.0.39
   '@types/react-dom': 17.0.11
   '@typescript-eslint/eslint-plugin': 5.11.0_15a231715447500ed5c06da64c8aef1c
@@ -409,8 +409,8 @@ packages:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
     dev: true
 
-  /@types/node/16.11.24:
-    resolution: {integrity: sha512-Ezv33Rl4mIi6YdSHfIRNBd4Q9kUe5okiaw/ikvJiJDmuQZNW5kfdg7+oQPF8NO6sTcr3woIpj3jANzTXdvEZXA==}
+  /@types/node/16.11.25:
+    resolution: {integrity: sha512-NrTwfD7L1RTc2qrHQD4RTTy4p0CO2LatKBEKEds3CaVuhoM/+DJzmWZl5f+ikR8cm8F5mfJxK+9rQq07gRiSjQ==}
     dev: true
 
   /@types/parse-json/4.0.0:
