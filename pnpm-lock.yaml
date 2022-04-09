@@ -5,7 +5,7 @@ specifiers:
   '@emotion/styled': 11.8.1
   '@types/node': 16.11.26
   '@types/react': 18.0.0
-  '@types/react-dom': 17.0.15
+  '@types/react-dom': 18.0.0
   '@typescript-eslint/eslint-plugin': 5.18.0
   '@typescript-eslint/parser': 5.18.0
   autoprefixer: 10.4.4
@@ -32,7 +32,7 @@ devDependencies:
   '@emotion/styled': 11.8.1_e2545690ae9f35939f01f34fa19b116d
   '@types/node': 16.11.26
   '@types/react': 18.0.0
-  '@types/react-dom': 17.0.15
+  '@types/react-dom': 18.0.0
   '@typescript-eslint/eslint-plugin': 5.18.0_0dd9be2ba5ed9805045f3fec8be848f5
   '@typescript-eslint/parser': 5.18.0_eslint@8.13.0+typescript@4.6.3
   autoprefixer: 10.4.4_postcss@8.4.12
@@ -433,18 +433,10 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react-dom/17.0.15:
-    resolution: {integrity: sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==}
+  /@types/react-dom/18.0.0:
+    resolution: {integrity: sha512-49897Y0UiCGmxZqpC8Blrf6meL8QUla6eb+BBhn69dTXlmuOlzkfr7HHY/O8J25e1lTUMs+YYxSlVDAaGHCOLg==}
     dependencies:
-      '@types/react': 17.0.44
-    dev: true
-
-  /@types/react/17.0.44:
-    resolution: {integrity: sha512-Ye0nlw09GeMp2Suh8qoOv0odfgCoowfM/9MG6WeRD60Gq9wS90bdkdRtYbRkNhXOpG4H+YXGvj4wOWhAC0LJ1g==}
-    dependencies:
-      '@types/prop-types': 15.7.4
-      '@types/scheduler': 0.16.2
-      csstype: 3.0.9
+      '@types/react': 18.0.0
     dev: true
 
   /@types/react/18.0.0:
