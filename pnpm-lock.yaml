@@ -4,7 +4,7 @@ specifiers:
   '@emotion/react': 11.9.0
   '@emotion/styled': 11.8.1
   '@types/node': 16.11.32
-  '@types/react': 18.0.6
+  '@types/react': 18.0.8
   '@types/react-dom': 18.0.2
   '@typescript-eslint/eslint-plugin': 5.20.0
   '@typescript-eslint/parser': 5.20.0
@@ -28,10 +28,10 @@ dependencies:
   react-dom: 18.0.0_react@18.0.0
 
 devDependencies:
-  '@emotion/react': 11.9.0_@types+react@18.0.6+react@18.0.0
-  '@emotion/styled': 11.8.1_3d040f3000c2e6813661bbbeef475a6f
+  '@emotion/react': 11.9.0_@types+react@18.0.8+react@18.0.0
+  '@emotion/styled': 11.8.1_fa2c005b5f56373f0737bfa053c55389
   '@types/node': 16.11.32
-  '@types/react': 18.0.6
+  '@types/react': 18.0.8
   '@types/react-dom': 18.0.2
   '@typescript-eslint/eslint-plugin': 5.20.0_81f0d1a74f014d44d273bd1612c85fd9
   '@typescript-eslint/parser': 5.20.0_eslint@8.14.0+typescript@4.6.3
@@ -156,7 +156,7 @@ packages:
     resolution: {integrity: sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==}
     dev: true
 
-  /@emotion/react/11.9.0_@types+react@18.0.6+react@18.0.0:
+  /@emotion/react/11.9.0_@types+react@18.0.8+react@18.0.0:
     resolution: {integrity: sha512-lBVSF5d0ceKtfKCDQJveNAtkC7ayxpVlgOohLgXqRwqWr9bOf4TZAFFyIcNngnV6xK6X4x2ZeXq7vliHkoVkxQ==}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -174,7 +174,7 @@ packages:
       '@emotion/serialize': 1.0.3
       '@emotion/utils': 1.1.0
       '@emotion/weak-memoize': 0.2.5
-      '@types/react': 18.0.6
+      '@types/react': 18.0.8
       hoist-non-react-statics: 3.3.2
       react: 18.0.0
     dev: true
@@ -203,7 +203,7 @@ packages:
     resolution: {integrity: sha512-u0AX4aSo25sMAygCuQTzS+HsImZFuS8llY8O7b9MDRzbJM0kVJlAz6KNDqcG7pOuQZJmj/8X/rAW+66kMnMW+g==}
     dev: true
 
-  /@emotion/styled/11.8.1_3d040f3000c2e6813661bbbeef475a6f:
+  /@emotion/styled/11.8.1_fa2c005b5f56373f0737bfa053c55389:
     resolution: {integrity: sha512-OghEVAYBZMpEquHZwuelXcRjRJQOVayvbmNR0zr174NHdmMgrNkLC6TljKC5h9lZLkN5WGrdUcrKlOJ4phhoTQ==}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -219,10 +219,10 @@ packages:
       '@babel/runtime': 7.16.3
       '@emotion/babel-plugin': 11.7.2
       '@emotion/is-prop-valid': 1.1.2
-      '@emotion/react': 11.9.0_@types+react@18.0.6+react@18.0.0
+      '@emotion/react': 11.9.0_@types+react@18.0.8+react@18.0.0
       '@emotion/serialize': 1.0.2
       '@emotion/utils': 1.1.0
-      '@types/react': 18.0.6
+      '@types/react': 18.0.8
       react: 18.0.0
     dev: true
 
@@ -436,11 +436,11 @@ packages:
   /@types/react-dom/18.0.2:
     resolution: {integrity: sha512-UxeS+Wtj5bvLRREz9tIgsK4ntCuLDo0EcAcACgw3E+9wE8ePDr9uQpq53MfcyxyIS55xJ+0B6mDS8c4qkkHLBg==}
     dependencies:
-      '@types/react': 18.0.6
+      '@types/react': 18.0.8
     dev: true
 
-  /@types/react/18.0.6:
-    resolution: {integrity: sha512-bPqwzJRzKtfI0mVYr5R+1o9BOE8UEXefwc1LwcBtfnaAn6OoqMhLa/91VA8aeWfDPJt1kHvYKI8RHcQybZLHHA==}
+  /@types/react/18.0.8:
+    resolution: {integrity: sha512-+j2hk9BzCOrrOSJASi5XiOyBbERk9jG5O73Ya4M0env5Ixi6vUNli4qy994AINcEF+1IEHISYFfIT4zwr++LKw==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
