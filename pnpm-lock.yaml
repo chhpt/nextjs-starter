@@ -13,7 +13,7 @@ specifiers:
   eslint-config-alloy: 4.5.1
   eslint-config-next: 12.1.5
   husky: 7.0.4
-  lint-staged: 12.4.0
+  lint-staged: 12.4.1
   next: 12.1.5
   postcss: 8.4.12
   prettier: 2.6.2
@@ -40,7 +40,7 @@ devDependencies:
   eslint-config-alloy: 4.5.1
   eslint-config-next: 12.1.5_f9aca591fe836eec9a0024e01b547f29
   husky: 7.0.4
-  lint-staged: 12.4.0
+  lint-staged: 12.4.1
   postcss: 8.4.12
   prettier: 2.6.2
   tailwindcss: 3.0.24
@@ -1913,8 +1913,8 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
-  /lint-staged/12.4.0:
-    resolution: {integrity: sha512-3X7MR0h9b7qf4iXf/1n7RlVAx+EzpAZXoCEMhVSpaBlgKDfH2ewf+QUm7BddFyq29v4dgPP+8+uYpWuSWx035A==}
+  /lint-staged/12.4.1:
+    resolution: {integrity: sha512-PTXgzpflrQ+pODQTG116QNB+Q6uUTDg5B5HqGvNhoQSGt8Qy+MA/6zSnR8n38+sxP5TapzeQGTvoKni0KRS8Vg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
