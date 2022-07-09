@@ -10,7 +10,7 @@ specifiers:
   '@typescript-eslint/parser': 5.30.5
   autoprefixer: 10.4.7
   eslint: 8.19.0
-  eslint-config-alloy: 4.5.1
+  eslint-config-alloy: 4.6.2
   eslint-config-next: 12.1.6
   husky: 8.0.1
   lint-staged: 13.0.3
@@ -37,7 +37,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.30.5_eslint@8.19.0+typescript@4.7.4
   autoprefixer: 10.4.7_postcss@8.4.14
   eslint: 8.19.0
-  eslint-config-alloy: 4.5.1
+  eslint-config-alloy: 4.6.2_588d116a1d3e86b09a823de2286c9eab
   eslint-config-next: 12.1.6_853b714af6b17fd79137e154b0263c71
   husky: 8.0.1
   lint-staged: 13.0.3
@@ -1094,8 +1094,40 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-alloy/4.5.1:
-    resolution: {integrity: sha512-rdHaoAyOf4scccQX3bxqmUa85+cvyhPvijqobsZT+Cdt0HGAbhGby3lghmotGOYHACRTtn7gs+oM5pnnmPkXyw==}
+  /eslint-config-alloy/4.6.2_588d116a1d3e86b09a823de2286c9eab:
+    resolution: {integrity: sha512-mntO/1jazNIJJCb3mwtaH4D9uLnEIzI0EM2aYnllYVBmET0t490yBSLdPz+5cWtJsHU2DkW7aPI/kFtal9Vopg==}
+    peerDependencies:
+      '@babel/eslint-parser': 7.x
+      '@babel/preset-react': 7.x
+      '@typescript-eslint/eslint-plugin': '>=5.29.0'
+      '@typescript-eslint/parser': 5.x
+      eslint: '>=8.18.0'
+      eslint-plugin-react: '>=7.30.1'
+      eslint-plugin-vue: '>=9.1.1'
+      typescript: 4.x
+      vue-eslint-parser: 9.x
+    peerDependenciesMeta:
+      '@babel/eslint-parser':
+        optional: true
+      '@babel/preset-react':
+        optional: true
+      '@typescript-eslint/eslint-plugin':
+        optional: true
+      '@typescript-eslint/parser':
+        optional: true
+      eslint-plugin-react:
+        optional: true
+      eslint-plugin-vue:
+        optional: true
+      typescript:
+        optional: true
+      vue-eslint-parser:
+        optional: true
+    dependencies:
+      '@typescript-eslint/eslint-plugin': 5.30.5_f646e16e2de31e818e163bded4698d6b
+      '@typescript-eslint/parser': 5.30.5_eslint@8.19.0+typescript@4.7.4
+      eslint: 8.19.0
+      typescript: 4.7.4
     dev: true
 
   /eslint-config-next/12.1.6_853b714af6b17fd79137e154b0263c71:
