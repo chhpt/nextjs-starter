@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@emotion/react': 11.10.0
-  '@emotion/styled': 11.10.0
+  '@emotion/react': 11.10.4
+  '@emotion/styled': 11.10.4
   '@types/node': 16.11.56
   '@types/react': 18.0.18
   '@types/react-dom': 18.0.6
@@ -28,8 +28,8 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@emotion/react': 11.10.0_fd7dc7ab4c545c7b1f5a35feb8e7a8a9
-  '@emotion/styled': 11.10.0_ecae129f14e313d4e547d7dc5526a998
+  '@emotion/react': 11.10.4_fd7dc7ab4c545c7b1f5a35feb8e7a8a9
+  '@emotion/styled': 11.10.4_524637de0a3ffadde86210d09daabad2
   '@types/node': 16.11.56
   '@types/react': 18.0.18
   '@types/react-dom': 18.0.6
@@ -156,8 +156,8 @@ packages:
     resolution: {integrity: sha512-G/YwXTkv7Den9mXDO7AhLWkE3q+I92B+VqAE+dYG4NGPaHZGvt3G8Q0p9vmE+sq7rTGphUbAvmQ9YpbfMQGGlA==}
     dev: true
 
-  /@emotion/react/11.10.0_fd7dc7ab4c545c7b1f5a35feb8e7a8a9:
-    resolution: {integrity: sha512-K6z9zlHxxBXwN8TcpwBKcEsBsOw4JWCCmR+BeeOWgqp8GIU1yA2Odd41bwdAAr0ssbQrbJbVnndvv7oiv1bZeQ==}
+  /@emotion/react/11.10.4_fd7dc7ab4c545c7b1f5a35feb8e7a8a9:
+    resolution: {integrity: sha512-j0AkMpr6BL8gldJZ6XQsQ8DnS9TxEQu1R+OGmDZiWjBAJtCcbt0tS3I/YffoqHXxH6MjgI7KdMbYKw3MEiU9eA==}
     peerDependencies:
       '@babel/core': ^7.0.0
       '@types/react': '*'
@@ -172,6 +172,7 @@ packages:
       '@emotion/babel-plugin': 11.10.0
       '@emotion/cache': 11.10.0
       '@emotion/serialize': 1.1.0
+      '@emotion/use-insertion-effect-with-fallbacks': 1.0.0_react@18.2.0
       '@emotion/utils': 1.2.0
       '@emotion/weak-memoize': 0.3.0
       '@types/react': 18.0.18
@@ -193,8 +194,8 @@ packages:
     resolution: {integrity: sha512-OiTkRgpxescko+M51tZsMq7Puu/KP55wMT8BgpcXVG2hqXc0Vo0mfymJ/Uj24Hp0i083ji/o0aLddh08UEjq8w==}
     dev: true
 
-  /@emotion/styled/11.10.0_ecae129f14e313d4e547d7dc5526a998:
-    resolution: {integrity: sha512-V9oaEH6V4KePeQpgUE83i8ht+4Ri3E8Djp/ZPJ4DQlqWhSKITvgzlR3/YQE2hdfP4Jw3qVRkANJz01LLqK9/TA==}
+  /@emotion/styled/11.10.4_524637de0a3ffadde86210d09daabad2:
+    resolution: {integrity: sha512-pRl4R8Ez3UXvOPfc2bzIoV8u9P97UedgHS4FPX594ntwEuAMA114wlaHvOK24HB48uqfXiGlYIZYCxVJ1R1ttQ==}
     peerDependencies:
       '@babel/core': ^7.0.0
       '@emotion/react': ^11.0.0-rc.0
@@ -209,8 +210,9 @@ packages:
       '@babel/runtime': 7.18.9
       '@emotion/babel-plugin': 11.10.0
       '@emotion/is-prop-valid': 1.2.0
-      '@emotion/react': 11.10.0_fd7dc7ab4c545c7b1f5a35feb8e7a8a9
+      '@emotion/react': 11.10.4_fd7dc7ab4c545c7b1f5a35feb8e7a8a9
       '@emotion/serialize': 1.1.0
+      '@emotion/use-insertion-effect-with-fallbacks': 1.0.0_react@18.2.0
       '@emotion/utils': 1.2.0
       '@types/react': 18.0.18
       react: 18.2.0
@@ -218,6 +220,14 @@ packages:
 
   /@emotion/unitless/0.8.0:
     resolution: {integrity: sha512-VINS5vEYAscRl2ZUDiT3uMPlrFQupiKgHz5AA4bCH1miKBg4qtwkim1qPmJj/4WG6TreYMY111rEFsjupcOKHw==}
+    dev: true
+
+  /@emotion/use-insertion-effect-with-fallbacks/1.0.0_react@18.2.0:
+    resolution: {integrity: sha512-1eEgUGmkaljiBnRMTdksDV1W4kUnmwgp7X9G8B++9GYwl1lUdqSndSriIrTJ0N7LQaoauY9JJ2yhiOYK5+NI4A==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
     dev: true
 
   /@emotion/utils/1.2.0:

@@ -31,8 +31,8 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@emotion/react": "11.10.0",
-    "@emotion/styled": "11.10.0",
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
     "@types/node": "16.11.56",
     "@types/react": "18.0.18",
     "@types/react-dom": "18.0.6",
