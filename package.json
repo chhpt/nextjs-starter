@@ -26,7 +26,7 @@
     ]
   },
   "dependencies": {
-    "next": "12.2.5",
+    "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -41,7 +41,7 @@
     "autoprefixer": "10.4.8",
     "eslint": "8.23.0",
     "eslint-config-alloy": "4.6.2",
-    "eslint-config-next": "12.2.5",
+    "eslint-config-next": "12.3.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
     "postcss": "8.4.16",
