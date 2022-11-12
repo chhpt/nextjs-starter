@@ -19,7 +19,7 @@ specifiers:
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
-  tailwindcss: 3.2.2
+  tailwindcss: 3.2.4
   typescript: 4.8.4
 
 dependencies:
@@ -43,7 +43,7 @@ devDependencies:
   lint-staged: 13.0.3
   postcss: 8.4.19
   prettier: 2.7.1
-  tailwindcss: 3.2.2
+  tailwindcss: 3.2.4
   typescript: 4.8.4
 
 packages:
@@ -2836,8 +2836,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss/3.2.2:
-    resolution: {integrity: sha512-c2GtSdqg+harR4QeoTmex0Ngfg8IIHNeLQH5yr2B9uZbZR1Xt1rYbjWOWTcj3YLTZhrmZnPowoQDbSRFyZHQ5Q==}
+  /tailwindcss/3.2.4:
+    resolution: {integrity: sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
