@@ -10,7 +10,7 @@ specifiers:
   '@typescript-eslint/parser': 5.47.1
   autoprefixer: 10.4.13
   eslint: 8.31.0
-  eslint-config-alloy: 4.7.0
+  eslint-config-alloy: 4.8.0
   eslint-config-next: 13.1.1
   husky: 8.0.3
   lint-staged: 13.1.0
@@ -37,7 +37,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.47.1_eslint@8.31.0+typescript@4.9.4
   autoprefixer: 10.4.13_postcss@8.4.21
   eslint: 8.31.0
-  eslint-config-alloy: 4.7.0_2512a9f4370e4b549a5b27ad9200b0a0
+  eslint-config-alloy: 4.8.0_2512a9f4370e4b549a5b27ad9200b0a0
   eslint-config-next: 13.1.1_eslint@8.31.0+typescript@4.9.4
   husky: 8.0.3
   lint-staged: 13.1.0
@@ -1182,8 +1182,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-alloy/4.7.0_2512a9f4370e4b549a5b27ad9200b0a0:
-    resolution: {integrity: sha512-e5wUP9SB/k2hBzzl2InpvG1toYWB4lRrJbAAdtDv8CUWsyxrznQZod4CrS1p3O+hf+PQhSqR2rbXLF4TvNWisw==}
+  /eslint-config-alloy/4.8.0_2512a9f4370e4b549a5b27ad9200b0a0:
+    resolution: {integrity: sha512-y1uGAFSUA7i7ytLRIYFxGFvI1CvQRaTWp0T5QwBhGL0r/EG246aAGcWNJl6iP8Yw14mMgOJXmCzMFN3Md2E0MQ==}
     peerDependencies:
       '@babel/eslint-parser': 7.x
       '@babel/preset-react': 7.x
