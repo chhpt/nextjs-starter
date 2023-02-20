@@ -16,7 +16,7 @@
 
 A Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
 
-- 🚀 **Next.js 12**
+- 🚀 **Next.js 13 & React 18**
 - ⚙️ **Tailwind CSS 3** - A utility-first CSS framework
 - 🍓 **Styled Components** - Styling React component
 - 📏 **ESLint** — Pluggable JavaScript linter
@@ -33,10 +33,16 @@ The best way to start with this template is using `create-next-app`.
 npx create-next-app ts-next -e https://github.com/chhpt/nextjs-starter
 ```
 
+or
+
+```
+pnpm create next-app ts-next -e https://github.com/chhpt/nextjs-starter
+```
+
 If you prefer you can clone this repository and run the following commands inside the project folder:
 
-1. `npm install` or `yarn`;
-2. `yarn dev`;
+1. `pnpm install` or `npm install`;
+2. `pnpm dev`;
 
 To view the project open `http://localhost:3000`.
 
