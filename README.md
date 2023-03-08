@@ -24,6 +24,7 @@ A Next.js starter that includes all you need to build amazing projects 🔥. For
 - 🐶 **Husky** — Use git hooks with ease
 - 🚫 **lint-staged** - Run linters against staged git files
 - 🗂 **Absolute import** - Import folders and files using the `@` prefix
+- 🤩 **Vercel Serverless/Edge Functions** - Serverless/Edge functions for Next.js
 
 ## 🚀 Getting started
 
