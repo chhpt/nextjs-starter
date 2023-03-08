@@ -15,14 +15,14 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
-    "lint": "next lint",
+    "lint": "eslint --ignore-path .gitignore --fix",
     "format": "prettier --ignore-path .gitignore \"pages/**/*.+(ts|js|tsx)\" --write",
     "postinstall": "husky install"
   },
   "lint-staged": {
-    "./src/**/*.{ts,js,jsx,tsx}": [
-      "yarn lint --fix",
-      "yarn format"
+    "./**/*.{ts,js,jsx,tsx}": [
+      "pnpm run lint",
+      "pnpm run format"
     ]
   },
   "dependencies": {

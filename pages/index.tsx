@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styled from '@emotion/styled'
 import styles from '@/styles/Home.module.css'
 
 export default function Home() {
@@ -44,6 +43,20 @@ export default function Home() {
           >
             <h3>Deploy &rarr;</h3>
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+          </a>
+          <a
+            href="https://vercel.com/docs/concepts/functions/serverless-functions"
+            className={styles.card}
+          >
+            <h3>Serverless Function &rarr;</h3>
+            <p>Running code on-demand without needing to manage your own infrastructure.</p>
+          </a>
+          <a
+            href="https://vercel.com/docs/concepts/functions/edge-functions"
+            className={styles.card}
+          >
+            <h3>Edge Function &rarr;</h3>
+            <p>Deliver dynamic, personalized content with the lightweight Edge Runtime.</p>
           </a>
         </div>
       </main>
