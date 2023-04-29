@@ -43,7 +43,7 @@
     "eslint-config-alloy": "5.0.0",
     "eslint-config-next": "13.3.1",
     "husky": "8.0.3",
-    "lint-staged": "13.2.1",
+    "lint-staged": "13.2.2",
     "postcss": "8.4.23",
     "prettier": "2.8.8",
     "tailwindcss": "3.3.1",
