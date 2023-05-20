@@ -19,8 +19,8 @@ devDependencies:
     specifier: 11.11.0
     version: 11.11.0(@emotion/react@11.11.0)(@types/react@18.2.6)(react@18.2.0)
   '@types/node':
-    specifier: 18.16.9
-    version: 18.16.9
+    specifier: 18.16.13
+    version: 18.16.13
   '@types/react':
     specifier: 18.2.6
     version: 18.2.6
@@ -471,8 +471,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@18.16.9:
-    resolution: {integrity: sha512-IeB32oIV4oGArLrd7znD2rkHQ6EDCM+2Sr76dJnrHwv9OHBTTM6nuDLK9bmikXzPa0ZlWMWtRGo/Uw4mrzQedA==}
+  /@types/node@18.16.13:
+    resolution: {integrity: sha512-uZRomboV1vBL61EBXneL4j9/hEn+1Yqa4LQdpGrKmXFyJmVfWc9JV9+yb2AlnOnuaDnb2PDO3hC6/LKmzJxP1A==}
     dev: true
 
   /@types/parse-json@4.0.0:
