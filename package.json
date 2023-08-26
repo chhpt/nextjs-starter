@@ -34,7 +34,7 @@
     "@emotion/react": "11.11.1",
     "@emotion/styled": "11.11.0",
     "@types/node": "18.17.11",
-    "@types/react": "18.2.20",
+    "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "@typescript-eslint/eslint-plugin": "6.4.0",
     "@typescript-eslint/parser": "6.4.0",
