@@ -39,7 +39,7 @@
     "@typescript-eslint/eslint-plugin": "7.6.0",
     "@typescript-eslint/parser": "7.6.0",
     "autoprefixer": "10.4.19",
-    "eslint": "9.0.0",
+    "eslint": "9.1.0",
     "eslint-config-alloy": "5.1.2",
     "eslint-config-next": "14.2.2",
     "husky": "9.0.11",
