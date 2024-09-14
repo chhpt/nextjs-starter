@@ -42,7 +42,7 @@
     "eslint": "9.10.0",
     "eslint-config-alloy": "5.1.2",
     "eslint-config-next": "14.2.8",
-    "husky": "9.1.5",
+    "husky": "9.1.6",
     "lint-staged": "15.2.10",
     "postcss": "8.4.45",
     "prettier": "3.3.3",
