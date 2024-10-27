@@ -1,8 +1,8 @@
 {
   "name": "nextjs-starter",
-  "description": "A Next.js starter that includes all you need to build amazing projects",
   "version": "1.0.0",
   "private": true,
+  "description": "A Next.js starter that includes all you need to build amazing projects",
   "author": "abel chang<cwuyiqing@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -11,19 +11,13 @@
     "typescript"
   ],
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "dev": "next dev --turbo",
     "export": "next build && next export",
-    "lint": "eslint --ignore-path .gitignore --fix",
     "format": "prettier --ignore-path .gitignore \"pages/**/*.+(ts|js|tsx)\" --write",
-    "postinstall": "husky install"
-  },
-  "lint-staged": {
-    "./**/*.{ts,js,jsx,tsx}": [
-      "pnpm run lint",
-      "pnpm run format"
-    ]
+    "lint": "eslint --ignore-pattern .gitignore --fix",
+    "prepare": "husky",
+    "start": "next start"
   },
   "dependencies": {
     "next": "15.0.1",
@@ -40,7 +34,7 @@
     "@typescript-eslint/parser": "8.11.0",
     "autoprefixer": "10.4.20",
     "eslint": "9.13.0",
-    "eslint-config-alloy": "5.1.2",
+    "eslint-config-hyoban": "3.1.11",
     "eslint-config-next": "15.0.1",
     "husky": "9.1.6",
     "lint-staged": "15.2.10",
@@ -48,5 +42,11 @@
     "prettier": "3.3.3",
     "tailwindcss": "3.4.14",
     "typescript": "5.6.3"
+  },
+  "lint-staged": {
+    "./**/*.{ts,js,jsx,tsx}": [
+      "pnpm run lint",
+      "pnpm run format"
+    ]
   }
 }

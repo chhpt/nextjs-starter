@@ -16,7 +16,7 @@
 
 A Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
 
-- 🚀 **Next.js 13 & React 18**
+- 🚀 **Next.js 15 & React 18**
 - ⚙️ **Tailwind CSS 3** - A utility-first CSS framework
 - 🍓 **Styled Components** - Styling React component
 - 📏 **ESLint** — Pluggable JavaScript linter

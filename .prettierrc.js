@@ -5,7 +5,7 @@ module.exports = {
   semi: false,
   singleQuote: true,
   quoteProps: 'as-needed',
-  trailingComma: 'es5',
+  trailingComma: 'all',
   bracketSpacing: true,
   arrowParens: 'always',
   rangeStart: 0,
