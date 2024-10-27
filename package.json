@@ -14,19 +14,28 @@
     "build": "next build",
     "dev": "next dev --turbo",
     "export": "next build && next export",
-    "format": "prettier --ignore-path .gitignore \"pages/**/*.+(ts|js|tsx)\" --write",
+    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
     "lint": "eslint --ignore-pattern .gitignore --fix",
     "prepare": "husky",
     "start": "next start"
   },
   "dependencies": {
+    "@radix-ui/react-icons": "1.3.0",
+    "class-variance-authority": "0.7.0",
+    "clsx": "2.1.1",
+    "immer": "10.1.1",
+    "lucide-react": "0.453.0",
     "next": "15.0.1",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "tailwind-merge": "2.5.4",
+    "tailwindcss-animate": "1.0.7",
+    "zustand": "5.0.0"
   },
   "devDependencies": {
     "@emotion/react": "11.13.3",
     "@emotion/styled": "11.13.0",
+    "@iconify-icon/react": "2.1.0",
     "@types/node": "20.17.1",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",

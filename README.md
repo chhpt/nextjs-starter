@@ -14,15 +14,16 @@
 
 <br>
 
-A Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
+A full-featured Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
 
-- 🚀 **Next.js 15 & React 18**
+- 🚀 **Next.js 15 App Router & React 18**
 - ⚙️ **Tailwind CSS 3** - A utility-first CSS framework
 - 🍓 **Styled Components** - Styling React component
 - 📏 **ESLint** — Pluggable JavaScript linter
 - 💖 **Prettier** - Opinionated Code Formatter
 - 🐶 **Husky** — Use git hooks with ease
 - 🚫 **lint-staged** - Run linters against staged git files
+- 😁 **shadcn** - Beautifully designed components that you can copy and paste into your apps.
 - 🗂 **Absolute import** - Import folders and files using the `@` prefix
 - 🤩 **Vercel Serverless/Edge Functions** - Serverless/Edge functions for Next.js
 
