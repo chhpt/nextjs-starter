@@ -52,8 +52,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0(react@18.3.1)
       '@types/node':
-        specifier: 20.17.6
-        version: 20.17.6
+        specifier: 22.8.7
+        version: 22.8.7
       '@types/react':
         specifier: 18.3.12
         version: 18.3.12
@@ -773,8 +773,8 @@ packages:
   '@types/minimatch@5.1.2':
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
 
-  '@types/node@20.17.6':
-    resolution: {integrity: sha512-VEI7OdvK2wP7XHnsuXbAJnEpEkF6NjSN45QJlL4VGqZSXsnicpesdTWsg9RISeSdYd3yeRj/y3k5KGjUXYnFwQ==}
+  '@types/node@22.8.7':
+    resolution: {integrity: sha512-LidcG+2UeYIWcMuMUpBKOnryBWG/rnmOHQR5apjn8myTQcx3rinFRn7DcIFhMnS0PPFSC6OafdIKEad0lj6U0Q==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -3657,7 +3657,7 @@ snapshots:
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.17.6
+      '@types/node': 22.8.7
 
   '@types/json-schema@7.0.15': {}
 
@@ -3665,7 +3665,7 @@ snapshots:
 
   '@types/minimatch@5.1.2': {}
 
-  '@types/node@20.17.6':
+  '@types/node@22.8.7':
     dependencies:
       undici-types: 6.19.8
 
