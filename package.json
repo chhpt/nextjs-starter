@@ -45,7 +45,7 @@
     "eslint": "9.15.0",
     "eslint-config-hyoban": "3.1.13",
     "eslint-config-next": "15.0.3",
-    "husky": "9.1.6",
+    "husky": "9.1.7",
     "lint-staged": "15.2.10",
     "postcss": "8.4.49",
     "prettier": "3.3.3",
