@@ -49,8 +49,8 @@ importers:
         specifier: 11.14.0
         version: 11.14.0(@emotion/react@11.14.0(@types/react@19.0.2)(react@19.0.0))(@types/react@19.0.2)(react@19.0.0)
       '@iconify-icon/react':
-        specifier: 2.2.0
-        version: 2.2.0(react@19.0.0)
+        specifier: 2.3.0
+        version: 2.3.0(react@19.0.0)
       '@types/node':
         specifier: 22.10.5
         version: 22.10.5
@@ -521,8 +521,8 @@ packages:
     resolution: {integrity: sha512-c7hNEllBlenFTHBky65mhq8WD2kbN9Q6gk0bTk8lSBvc554jpXSkST1iePudpt7+A/AQvuHs9EMqjHDXMY1lrA==}
     engines: {node: '>=18.18'}
 
-  '@iconify-icon/react@2.2.0':
-    resolution: {integrity: sha512-8knPjqV+Se3g1fEZwXgBZ/6tfcabNUH8/jCPIUofBpqHbJKvxIGuj0UdqPWWzjYxxHEUdyXDe8TnkO6Tp1UynA==}
+  '@iconify-icon/react@2.3.0':
+    resolution: {integrity: sha512-7at8wGF+igiCS2XMaIrkZokD0zxz0pNa5SZn5tJAkZMJezeJlYiFXI5rYkiEpUpMaNYhYTqGLB90I/0sKJZkUw==}
     peerDependencies:
       react: '>=16'
 
@@ -1861,8 +1861,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  iconify-icon@2.2.0:
-    resolution: {integrity: sha512-PDYyUWgsI8tp5uTwRAfwfrmjkC9WEzWbUFuByAiZAIuCFigho7u+ApIYJ9fKoZyyp8SBCpnq/dVHewNv4or6bg==}
+  iconify-icon@2.3.0:
+    resolution: {integrity: sha512-C0beI9oTDxQz6voI5CKl7MiJf0Lw4UU8K4G4t6pcUDClLmCvuMOpcvd8MAztQ2SfoH0iv7WHdxBFjekKPFKH2Q==}
 
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
@@ -3526,9 +3526,9 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.1': {}
 
-  '@iconify-icon/react@2.2.0(react@19.0.0)':
+  '@iconify-icon/react@2.3.0(react@19.0.0)':
     dependencies:
-      iconify-icon: 2.2.0
+      iconify-icon: 2.3.0
       react: 19.0.0
 
   '@iconify/types@2.0.0': {}
@@ -5177,7 +5177,7 @@ snapshots:
 
   husky@9.1.7: {}
 
-  iconify-icon@2.2.0:
+  iconify-icon@2.3.0:
     dependencies:
       '@iconify/types': 2.0.0
 
