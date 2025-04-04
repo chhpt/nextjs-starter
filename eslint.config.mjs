@@ -5,12 +5,11 @@ export default defineConfig(
   {
     ignores: ['**/*.d.ts'],
     react: 'next',
-    tailwindCSS: true,
+    tailwindCSS: false,
   },
   {
     rules: {
       '@stylistic/arrow-parens': 'off',
-      'tailwindcss/classnames-order': 'off',
       'import/no-anonymous-default-export': 'off',
     },
   },
