@@ -49,8 +49,8 @@ importers:
         specifier: 11.14.0
         version: 11.14.0(@emotion/react@11.14.0(@types/react@19.1.2)(react@19.1.0))(@types/react@19.1.2)(react@19.1.0)
       '@iconify-icon/react':
-        specifier: 2.3.0
-        version: 2.3.0(react@19.1.0)
+        specifier: 3.0.0
+        version: 3.0.0(react@19.1.0)
       '@tailwindcss/postcss':
         specifier: 4.1.5
         version: 4.1.5
@@ -397,8 +397,8 @@ packages:
     peerDependencies:
       tailwindcss: ^3.4.0
 
-  '@iconify-icon/react@2.3.0':
-    resolution: {integrity: sha512-7at8wGF+igiCS2XMaIrkZokD0zxz0pNa5SZn5tJAkZMJezeJlYiFXI5rYkiEpUpMaNYhYTqGLB90I/0sKJZkUw==}
+  '@iconify-icon/react@3.0.0':
+    resolution: {integrity: sha512-TOyzGUIfOFbmRQflMbf8k8bBGbeVAVCnvJ/rKz2SgBOV6VZLv7E9gzLvkPzfkZ2HZL+GbRtLNX/GJq2EI54OFQ==}
     peerDependencies:
       react: '>=16'
 
@@ -1985,8 +1985,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  iconify-icon@2.3.0:
-    resolution: {integrity: sha512-C0beI9oTDxQz6voI5CKl7MiJf0Lw4UU8K4G4t6pcUDClLmCvuMOpcvd8MAztQ2SfoH0iv7WHdxBFjekKPFKH2Q==}
+  iconify-icon@3.0.0:
+    resolution: {integrity: sha512-yPcnpkn8HUEUckrxxJBOer3jbGv3bqozHsLMLBRxhk3As1X76BgV2mS2a1HTNOIagR8nUs30H3qAd9GLe8Mnlg==}
 
   iconv-lite@0.6.3:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
@@ -3643,9 +3643,9 @@ snapshots:
       postcss: 8.5.3
       tailwindcss: 4.1.5
 
-  '@iconify-icon/react@2.3.0(react@19.1.0)':
+  '@iconify-icon/react@3.0.0(react@19.1.0)':
     dependencies:
-      iconify-icon: 2.3.0
+      iconify-icon: 3.0.0
       react: 19.1.0
 
   '@iconify/types@2.0.0': {}
@@ -5519,7 +5519,7 @@ snapshots:
 
   husky@9.1.7: {}
 
-  iconify-icon@2.3.0:
+  iconify-icon@3.0.0:
     dependencies:
       '@iconify/types': 2.0.0
 
