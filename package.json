@@ -44,7 +44,7 @@
     "@typescript-eslint/parser": "8.37.0",
     "autoprefixer": "10.4.21",
     "eslint": "9.31.0",
-    "eslint-config-hyoban": "4.0.8",
+    "eslint-config-hyoban": "4.0.9",
     "eslint-config-next": "15.4.2",
     "husky": "9.1.7",
     "lint-staged": "16.1.2",
