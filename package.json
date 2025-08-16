@@ -36,7 +36,7 @@
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
     "@iconify-icon/react": "3.0.0",
-    "@tailwindcss/postcss": "4.1.11",
+    "@tailwindcss/postcss": "4.1.12",
     "@types/node": "22.17.2",
     "@types/react": "19.1.10",
     "@types/react-dom": "19.1.7",
@@ -50,7 +50,7 @@
     "lint-staged": "16.1.5",
     "postcss": "8.5.6",
     "prettier": "3.6.2",
-    "tailwindcss": "4.1.11",
+    "tailwindcss": "4.1.12",
     "typescript": "5.9.2"
   },
   "lint-staged": {
