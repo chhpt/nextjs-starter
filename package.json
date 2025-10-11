@@ -37,7 +37,7 @@
     "@emotion/styled": "11.14.1",
     "@iconify-icon/react": "3.0.1",
     "@tailwindcss/postcss": "4.1.14",
-    "@types/node": "22.18.9",
+    "@types/node": "22.18.10",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.1",
     "@typescript-eslint/eslint-plugin": "8.46.0",
