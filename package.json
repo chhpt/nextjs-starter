@@ -35,7 +35,7 @@
   "devDependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
-    "@iconify-icon/react": "3.0.1",
+    "@iconify-icon/react": "3.0.2",
     "@tailwindcss/postcss": "4.1.14",
     "@types/node": "22.18.12",
     "@types/react": "19.2.2",
