@@ -49,8 +49,8 @@ importers:
         specifier: 11.14.1
         version: 11.14.1(@emotion/react@11.14.0(@types/react@19.2.2)(react@19.2.0))(@types/react@19.2.2)(react@19.2.0)
       '@iconify-icon/react':
-        specifier: 3.0.2
-        version: 3.0.2(react@19.2.0)
+        specifier: 3.0.3
+        version: 3.0.3(react@19.2.0)
       '@tailwindcss/postcss':
         specifier: 4.1.16
         version: 4.1.16
@@ -402,10 +402,10 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify-icon/react@3.0.2':
-    resolution: {integrity: sha512-XCYzkovmRkg6Hv2VjqBw4kyvp0acBAHa3lGFle74TldWx0VK3JAuUU+dDLj+6eUKqHceuTFSUiavuEqnM6UPMA==}
+  '@iconify-icon/react@3.0.3':
+    resolution: {integrity: sha512-i4N/J0+UZWQu5Ty9Z+SxsNsuNdY7w2TnSuI65Qw9UrWudvnRodKfTUMvyg0hvxSZolqAE1YJVZu1HqgfpgPX9w==}
     peerDependencies:
-      react: '>=19.2.0'
+      react: '>=18.0.0'
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -3534,7 +3534,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify-icon/react@3.0.2(react@19.2.0)':
+  '@iconify-icon/react@3.0.3(react@19.2.0)':
     dependencies:
       iconify-icon: 3.0.2
       react: 19.2.0
