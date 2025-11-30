@@ -39,8 +39,8 @@ importers:
         specifier: 1.0.7
         version: 1.0.7(tailwindcss@4.1.17)
       zustand:
-        specifier: 5.0.8
-        version: 5.0.8(@types/react@19.2.7)(immer@11.0.1)(react@19.2.0)
+        specifier: 5.0.9
+        version: 5.0.9(@types/react@19.2.7)(immer@11.0.1)(react@19.2.0)
     devDependencies:
       '@emotion/react':
         specifier: 11.14.0
@@ -3097,8 +3097,8 @@ packages:
   zod@4.1.8:
     resolution: {integrity: sha512-5R1P+WwQqmmMIEACyzSvo4JXHY5WiAFHRMg+zBZKgKS+Q1viRa0C1hmUKtHltoIFKtIdki3pRxkmpP74jnNYHQ==}
 
-  zustand@5.0.8:
-    resolution: {integrity: sha512-gyPKpIaxY9XcO2vSMrLbiER7QMAMGOQZVRdJ6Zi782jkbzZygq5GI9nG8g+sMgitRtndwaBSl7uiqC49o1SSiw==}
+  zustand@5.0.9:
+    resolution: {integrity: sha512-ALBtUj0AfjJt3uNRQoL1tL2tMvj6Gp/6e39dnfT6uzpelGru8v1tPOGBzayOWbPJvujM8JojDk3E1LxeFisBNg==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
       '@types/react': '>=18.0.0'
@@ -6651,7 +6651,7 @@ snapshots:
 
   zod@4.1.8: {}
 
-  zustand@5.0.8(@types/react@19.2.7)(immer@11.0.1)(react@19.2.0):
+  zustand@5.0.9(@types/react@19.2.7)(immer@11.0.1)(react@19.2.0):
     optionalDependencies:
       '@types/react': 19.2.7
       immer: 11.0.1

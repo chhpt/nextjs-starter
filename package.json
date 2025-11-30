@@ -30,7 +30,7 @@
     "react-dom": "19.2.0",
     "tailwind-merge": "3.4.0",
     "tailwindcss-animate": "1.0.7",
-    "zustand": "5.0.8"
+    "zustand": "5.0.9"
   },
   "devDependencies": {
     "@emotion/react": "11.14.0",
